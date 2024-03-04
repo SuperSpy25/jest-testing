@@ -1,4 +1,4 @@
-import add from './app'
+import { add } from './app'
 
 describe("my test suite", () => {
   it("first test", () => {
