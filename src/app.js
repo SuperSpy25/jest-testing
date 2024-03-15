@@ -12,6 +12,4 @@ export function multiply(a, b) {
   }
   export function fizzbuzz(idk) {
     return idk;
-    
-  }
-  
+  }  

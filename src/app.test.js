@@ -20,4 +20,7 @@ describe("my test suite", () => {
   it("fizzbuzz reterning 2", () => {
     expect(fizzbuzz(2)).toEqual(2);
   });
+  it("fizzbuzz reterning 2", () => {
+    expect(fizzbuzz(3)).toEqual("fizz");
+  });
  
