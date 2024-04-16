@@ -5,11 +5,28 @@ export function subtract(a, b) {
   return a - b;
 }
 export function multiply(a, b) {
-    return a * b;
+  return a * b;
+}
+export function divide(a, b) {
+  return a / b;
+}
+
+export function fizzbuzz(idk) {
+  if (idk % 15 === 0) {
+    return "fizzbuzz";
   }
-  export function divide(a, b) {
-    return a/b;
+  if (idk % 3 === 0) {
+    return "fizz";
   }
-  export function fizzbuzz(idk) {
-    return idk;
-  }  
+
+  if (idk % 5 === 0) {
+    return "buzz";
+  }
+
+  return idk;
+}
+
+
+export function fizzbuzzTo(lastNumber) {
+  return [1];
+}
